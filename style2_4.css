@@ -1,0 +1,49 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 20px;
+}
+td {
+	width: 150px;
+	height: 70px;
+	border: 1px solid rgb(255, 254, 254);
+	text-align: center;
+}
+tr:nth-child(even) {
+	background-color: Lightgreen;
+}
+tr:nth-child(odd) {
+	background-color: rgb(101, 175, 101);
+}
+td:nth-child(1) {
+	background-color: rgb(71, 126, 71);
+	color: white;
+}
+
+/* Style for each column in the first row */
+tr:first-child td:first-of-type {
+	background-color: rgb(116, 255, 150);
+	border: none;
+}
+tr:first-child td:nth-of-type(2) {
+	background-color: rgb(55, 223, 97);
+	color: white;
+	border: none;
+}
+tr:first-child td:nth-of-type(3) {
+	background-color: rgb(43, 169, 75);
+	color: white;
+	border: none;
+}
+tr:first-child td:nth-of-type(4) {
+	background-color: rgb(28, 121, 51);
+	color: white;
+	border: none;
+}
+tr:first-child td:nth-of-type(5) {
+	background-color: rgb(27, 106, 47);
+	color: white;
+	border: none;
+}
