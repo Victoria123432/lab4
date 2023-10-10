@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style3_4.css">
+</head>
+<body>
+    <form action="task3_4.html" method="get">
+        <fieldset tabindex="1">
+            <legend>Введіть свої дані:</legend>
+            <label for="name">
+                Введіть своє ім'я<input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="name"
+            /></label>
+            <label for="surname">
+                Введіть своє прізвище<input
+                    type="textarea"
+                    name="surname"
+                    id="surname"
+                    placeholder="suname"
+            /></label>
+            <label for="password"> Введіть пароль(обов'язково)</label
+            ><input
+                type="password"
+                name="password"
+                id="password"
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]){6}"
+                required
+                placeholder="password"/>
+            <label for="email">
+                Введіть імейл<input
+                    type="email"
+                    name="email"
+                    id="email"
+                    autocomplete="off"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com"
+                    placeholder="email"
+            /></label>
+            <label for ="number">
+                Введіть телефон<input
+                    type="tel"
+                    name="number"
+                    id="number"
+                    pattern="\+38[0-9]+"
+                    placeholder="number"
+            /></label>
+            <label for ="date">
+                Виберіть дату народження(обов'язково)<input
+                    type="date"
+                    name="date"
+                    id="date"
+                    required />
+            </label>
+        </fieldset>
+        <div class="radio_block">
+            <fieldset tabindex="2">
+                <legend>Перший блок радіокнопок:</legend>
+
+                <div class="radio_block1">
+                    <label>
+                        1 <input type="radio" name="group1" value="Варіант 1" /> 2<input
+                            type="radio"
+                            name="group2"
+                            value="Варіант 2" />
+                        3<input type="radio" name="group3" value="Варіант 3" />
+                    </label>
+                </div>
+                <legend>Другий блок радіокнопок:</legend>
+
+                <div class="radio_block2">
+                    <label>
+                        1 <input type="radio" name="group1" value="Варіант 1" /> 2<input
+                            type="radio"
+                            name="group2"
+                            value="Варіант 2"
+                            checked />
+                        3<input type="radio" name="group3" value="Варіант 3" />
+                    </label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="variants" tabindex="3">
+            <fieldset>
+                <label>Виберіть варіанти :</label>
+                <div>
+                    <div>
+                        <label for="">1</label>
+                        <input type="checkbox" name="group1" id="group1" />
+                    </div>
+                    <div>
+                        <label for="">2</label>
+                        <input type="checkbox" name="group1" id="group1" />
+                    </div>
+                    <div>
+                        <label for="">3</label>
+                        <input type="checkbox" name="group1" id="group1" />
+                    </div>
+                    <div>
+                        <label for="">4</label>
+                        <input type="checkbox" name="group1" id="group1" />
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <fieldset tabindex="4">
+            <label>
+                Виберіть одне значення
+                <select name="choice">
+                    <option>1 Value</option>
+                    <option>2 Value</option>
+                    <option selected>3 Value</option>
+                    <option>4 Value</option>
+                    <option>5 Value</option>
+                </select>
+            </label>
+            <label>
+                Виберіть декілька значень якщо потрібно
+                <select name="choice" multiple>
+                    <option>1 Value</option>
+                    <option>2 Value</option>
+                    <option>3 Value</option>
+                    <option>4 Value</option>
+                    <option>5 Value</option>
+                    <option>6 Value</option>
+                </select>
+            </label>
+
+            <select name="" id="">
+                <optgroup>
+                    <option value="">1</option>
+                    <option value="">1</option>
+                    <option value="">1</option>
+                </optgroup>
+                <optgroup>
+                    <option value="">2</option>
+                    <option value="">2</option>
+                    <option value="">2</option>
+                </optgroup>
+                <optgroup>
+                    <option value="">3</option>
+                    <option value="">3</option>
+                    <option value="">3</option>
+                </optgroup>
+            </select>
+            <input list="browsers" id="myBrowser" name="myBrowser" />
+            <datalist id="browsers">
+                <option value="Chrome"></option>
+                <option value="Firefox"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+                <option value="Microsoft Edge"></option>
+            </datalist>
+            <input type="file" id="soundFile" accept="audio/*"  multiple />
+        </fieldset>
+        <button type="submit">accept</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
