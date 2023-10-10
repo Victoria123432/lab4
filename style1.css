@@ -1,0 +1,71 @@
+div {
+	background-color: rgb(255, 165, 0);
+	width: 500px;
+	padding: 20px;
+	color: white;
+}
+h1 {
+	size: 25px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+
+#ul1 > li {
+	background-color: rgb(103, 158, 128);
+	padding-right: 20px;
+	padding-left: 50px;
+}
+#ul2 > li {
+	font-size: 18px;
+	font-style: italic;
+	background-color: rgb(153, 180, 102);
+	margin-bottom: 10px;
+	padding-left: 40px;
+}
+span {
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+}
+#ul1 span {
+	font-size: 20px;
+	font-weight: 700;
+	background-color: rgb(199, 124, 106);
+	margin-bottom: 10px;
+}
+#ul2 span {
+	background-color: rgb(218, 106, 32);
+}
+ul {
+	list-style-position: inside;
+}
+#li1 {
+	list-style-image: url(rule.svg);
+}
+
+#li2 {
+	list-style-image: url(ad_units.svg);
+}
+#li3 {
+	list-style-image: url(airplane_ticket.svg);
+}
+#li4 {
+	list-style-image: url(hotel.svg);
+}
+#li5 {
+	list-style-image: url(car_rental.svg);
+}
+#li6 {
+	list-style-image: url(rule.svg);
+}
+#li7 {
+	list-style-image: url(local_bar.svg);
+}
+#li8 {
+	list-style-image: url(casino.svg);
+}
+#li9 {
+	list-style-image: url(museum.svg);
+}
+#li10 {
+	list-style-image: url(festival.svg);
+}
