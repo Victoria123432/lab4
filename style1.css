@@ -38,34 +38,41 @@ span {
 ul {
 	list-style-position: inside;
 }
-#li1 {
-	list-style-image: url(rule.svg);
-}
 
 #li2 {
-	list-style-image: url(ad_units.svg);
+	background: url(ad_units.svg) no-repeat;
 }
 #li3 {
-	list-style-image: url(airplane_ticket.svg);
+	background: url(airplane_ticket.svg) no-repeat;
 }
 #li4 {
-	list-style-image: url(hotel.svg);
+	background: url(hotel.svg) no-repeat;
 }
 #li5 {
-	list-style-image: url(car_rental.svg);
+	background: url(car_rental.svg) no-repeat;
 }
-#li6 {
-	list-style-image: url(rule.svg);
-}
+
 #li7 {
-	list-style-image: url(local_bar.svg);
+	background: url(local_bar.svg) no-repeat;
 }
 #li8 {
-	list-style-image: url(casino.svg);
+	background: url(casino.svg) no-repeat;
 }
 #li9 {
-	list-style-image: url(museum.svg);
+	background: url(museum.svg) no-repeat;
 }
 #li10 {
-	list-style-image: url(festival.svg);
+	background: url(festival.svg) no-repeat;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150vh;
+}
+.block {
+	background: url(rule.svg) no-repeat;
+}
+ul li {
+	list-style: none;
 }

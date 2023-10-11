@@ -38,3 +38,8 @@ button {
 datalist {
 	position: absolute;
 }
+.block {
+	background: linear-gradient(to bottom, rgb(48, 87, 216), rgb(29, 212, 133));
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: white;
+}

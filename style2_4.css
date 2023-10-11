@@ -22,7 +22,6 @@ td:nth-child(1) {
 	color: white;
 }
 
-/* Style for each column in the first row */
 tr:first-child td:first-of-type {
 	background-color: rgb(116, 255, 150);
 	border: none;
