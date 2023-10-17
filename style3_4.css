@@ -38,8 +38,10 @@ button {
 datalist {
 	position: absolute;
 }
-.block {
+body {
 	background: linear-gradient(to bottom, rgb(48, 87, 216), rgb(29, 212, 133));
-	font-family: Georgia, 'Times New Roman', Times, serif;
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: white;
 }
